@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Suave</id>
+    <version>1.0.0</version>
+    <title>Suave</title>
+    <authors>Ademar Gonzalez, Henrik Feldt</authors>
+    <owners>Ademar Gonzalez, Henrik Feldt</owners>
+    <licenseUrl>https://github.com/SuaveIO/Suave/blob/master/COPYING</licenseUrl>
+    <projectUrl>http://suave.io</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SuaveIO/resources/master/images/head_trans.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Suave is a simple web development F# library providing a lightweight web server and a set of combinators to manipulate route flow and task composition.</description>
+    <releaseNotes>Release Notes:
+
+ * releasing v1.0.0
+ * [infra] e-mail off
+ * Merge pull request #366 from matthid/razor_suggestions
+ * fixup some smaller bugs which prevented the view localization to work properly.
+ * Merge pull request #364 from matthid/razor_suggestions
+ * support dot
+ * use fun instead
+ * fix syntax error.
+ * remove viewPath variable.
+ * add test for fallback behavior.
+ * add fallback to homeDirectory
+ * [docs] correct WebPart type signature
+ * fix test and add one without file extension.
+ * Use RazorEngine's internal caching; consider the current request path for resolving; reolve views in the 'Views' folder; Localize the view depending on the Accept-Language header; Add some helpers to read header values.
+ * [docs] updates
+ * remove duplicated link
+ * [docs] syntax error
+ * [docs] spacing/typo
+ * [docs] update operator
+ * [docs] json web service example
+ * update operators
+ * fix link, add chat link
+ * update paket example
+ * update homepage example
+ * update hello world example
+ * [docs] correct documentation comment
+ * [libuv] ipv6 support
+ * [classic] deprecating Types
+ * [globals] https on suave.io</releaseNotes>
+    <copyright>Ademar Gonzalez, Henrik Feldt</copyright>
+    <language>en-GB</language>
+    <dependencies>
+      <dependency id="FSharp.Core" version="3.1.2.5" />
+    </dependencies>
+  </metadata>
+</package>

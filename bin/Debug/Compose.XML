@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Compose</name></assembly>
+<members>
+<member name="M:Compose.wsWithErrorHandling(Suave.WebSocket.WebSocket,Suave.Http.HttpContext)">
+<summary>
+ An example of explictly fetching websocket errors and handling them in your codebase.
+</summary>
+</member>
+</members>
+</doc>
